@@ -1,6 +1,5 @@
 require 'bundler'
 require 'tty-box'
-require 'tty-box'
 Bundler.require
 
 require_relative 'lib/game_with_boxes'
