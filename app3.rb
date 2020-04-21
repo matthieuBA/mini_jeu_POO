@@ -1,5 +1,4 @@
 require 'bundler'
-require 'tty-box'
 require 'paint/pa'
 Bundler.require
 
