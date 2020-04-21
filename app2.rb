@@ -33,9 +33,6 @@ def alive(tab_opponents,tab_alive,tab_out)
   end
 end
 
-
-
-#while user.life_points >0 && (tab_out[0].life_points >0 || tab_out[1].life_points >0)
 while user.life_points >0 && tab_alive.include?("true") 
 
   alive(tab_opponents,tab_alive,tab_out)
@@ -55,7 +52,6 @@ while user.life_points >0 && tab_alive.include?("true")
   end
 
 
-  #NEWWWWWWWWWWWWWWWWWWWWWWWWWWWW
   tab_out.each_with_index do |element, i|
     if tab_out[i].life_points >0
       print i
@@ -64,15 +60,10 @@ while user.life_points >0 && tab_alive.include?("true")
       puts
     end
   end
-  #END NEWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-
-
   puts
   puts
   print ">"
   choice=gets.chomp
-
-
   case choice
   when "a"
     user.search_weapon
@@ -97,10 +88,6 @@ while user.life_points >0 && tab_alive.include?("true")
     puts
     break  
   end
-
-  # puts "prochain tour Y/N"
-  # turn =gets.chomp
-
 end
 
 if user.life_points >0
