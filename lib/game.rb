@@ -176,9 +176,3 @@ class Game
   end
 
 end
-
-
-
-
-
-
