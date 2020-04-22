@@ -1,5 +1,4 @@
 require 'bundler'
-require 'paint/pa'
 Bundler.require
 
 require_relative 'lib/game'
